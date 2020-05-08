@@ -48,7 +48,7 @@ class Song
       if all_artists[artist]
         all_artists[artist] += 1 
       else
-        all_artists[aritst] = 1
+        all_artists[artist] = 1
       end
     end
     all_artists
