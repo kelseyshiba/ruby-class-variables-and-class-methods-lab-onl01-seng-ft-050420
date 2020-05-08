@@ -32,7 +32,6 @@ class Song
     #hash[namesgenre] => song_count
     g_count = {}
     #@@genres = ["pop", "rock", "pop"]
-    count = 0
     @@genres.each do |genre|
           if g_count[genre] 
              g_count[genre] +=1
@@ -44,7 +43,8 @@ class Song
     end
   
   def self.artist_count
-  
+    all_artists = {}
+    
   end
 
 end
