@@ -51,6 +51,7 @@ class Song
         all_artists[aritst] = 1
       end
     end
+    all_artists
   end
 
 end
